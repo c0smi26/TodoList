@@ -1,0 +1,36 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(5, 5, 5, 0.5);
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.modal-body {
+    padding: 1rem;
+    width: 400px;
+    border-radius: 5px;
+    background: rgb(212, 214, 206);
+    height: 200px;
+    border: 1px solid #888;
+    margin: 10% auto;
+}
+
+.md {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(212, 201, 201);
+    padding: 3px 6px;
+    margin: 1px 2px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #3a4b48 0%, #1b182e 51%, #4c6863 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
